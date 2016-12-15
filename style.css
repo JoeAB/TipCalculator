@@ -1,0 +1,22 @@
+h2{
+	text-align: center;
+
+}
+body{
+	background-color: #003f42;
+	 text-align:center;
+}
+#calculator-body{
+	background-color: #019198;
+	border: 5px solid #1e2c2c;
+	
+}
+  table {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+  
+  #results{
+  	clear: left;
+  	
+  }
