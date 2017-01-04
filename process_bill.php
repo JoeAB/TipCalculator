@@ -37,19 +37,19 @@
 		if($valid){
 		?>	
 			<tr>
-				<td>Total Tip: <?php echo money_format("$%i", $tip) ?> </td>
+				<td>Total Tip: <?php echo("$".number_format($tip,2)) ?> </td>
 			</tr>
 			<tr>
-				<td>Total Bill: <?php echo money_format("$%i", $total) ?></td>
+				<td>Total Bill: <?php echo("$".number_format($total,2)) ?></td>
 			</tr>
 			<?php 
 				if($splitting > 1){
 			?>
 			<tr>
-				<td>Indidual Tip: <?php echo money_format("$%i", $tipSplit) ?></td>
+				<td>Indidual Tip: <?php echo("$".number_format($tipSplit,2)) ?></td>
 			</tr>
 			<tr>
-				<td>Individual Total: <?php echo money_format("$%i", $totalSplit) ?></td>
+				<td>Individual Total: <?php echo("$".number_format($totalSplit,2))?></td>
 			</tr>
 			<?php
 			}
